@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Stopwatch Pro",
+  "version": "1.0",
+  "description": "A high-precision workflow stopwatch with keyboard shortcuts.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tab-stopwatch@work-tools.local",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
