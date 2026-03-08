@@ -2,7 +2,7 @@
 
 A lightweight, floating stopwatch extension for Firefox and Chrome. Designed for workflow tracking with keyboard-first controls.
 
-## 🚀 Installation (Work PC)
+## 🚀 Installation
 Since this is a self-signed extension, follow these steps to install it on Firefox:
 
 1. Go to the [Releases](../../releases) page of this repository.
