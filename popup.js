@@ -1,1 +1,0 @@
-document.getElementById("activate").addEventListener("click",async()=>{const a=typeof browser!="undefined"?browser:chrome;try{let[b]=await a.tabs.query({active:!0,currentWindow:!0});await a.scripting.executeScript({target:{tabId:b.id},files:["content.js"]});window.close()}catch(c){console.error("Injection Error:",c)}});
